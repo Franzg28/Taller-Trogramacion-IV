@@ -29,6 +29,8 @@ def index() -> rx.Component:
     
 
 app = rx.App(
-    style=styles.BASE_STYLE
+    style=styles.BASE_STYLE,
+    stylesheets=["https://fonts.googleapis.com/css2?family=Mona+Sans:ital,wght@0,200..900;1,200..900&display=swap"
+                 ]
 )
 app.add_page(index)
